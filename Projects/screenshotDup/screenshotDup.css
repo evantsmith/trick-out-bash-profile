@@ -1,0 +1,457 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background-color: white;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Top Baner of Screenshot*/
+
+.banner {
+    background-color: rgb(0,0,0);
+    border: 2px solid black;
+    height: 70px;
+    width: 100%;
+    display: block;
+    z-index: 1;
+}
+
+#tab1{
+    background-color: rgb(0,0,0);
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    position:absolute;
+    top:3.5%;
+    left:30%;
+    z-index: 2;
+    height: 40px;
+    display: inline-block;
+}
+#tab2{
+    background-color: rgb(0,0,0);
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    position:absolute;
+    top:3.5%;
+    left:37%;
+    z-index: 2;
+    height: 40px;
+    display: inline-block;
+
+
+}
+#tab3{
+    background-color: rgb(0,0,0);
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    position:absolute;
+    top:3.5%;
+    left:41.5%;
+    z-index: 2;
+    height: 40px;
+
+    display: inline-block;
+}
+#tab4{
+    background-color: rgb(0,0,0);
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    position:absolute;
+    top:3.5%;
+    left:48%;
+    z-index: 2;
+    height: 40px;
+    display: inline-block;
+}
+.innerLogo {
+    width: 55px;
+    height: 55px;
+    z-index: 2;
+    position: absolute;
+    top: 1%;
+    left: 6%;
+
+}
+.searchBar {
+    background-color:rgb(63, 69, 72);
+    height: 40px;
+    width: 300px;
+    z-index: 2;
+    position: absolute;
+    top: 2%;
+    left: 10%
+}
+
+#searchWords {
+    color: rgb(139, 143, 144);
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 6px;
+}
+
+.picture {
+    height: 40px;
+    width: 40px;
+    z-index: 2;
+    position: absolute;
+    top:2%;
+    left: 81%;
+}
+#plus {
+    background-color: rgb(0,0,0);
+    color: white;
+    font-family: sans;
+    font-size: 46px;
+    position:absolute;
+    top:0.5%;
+    left:77%;
+    z-index: 2;
+    display: inline-block;
+}
+
+#dropDownArrow1 {
+    height: 10px;
+    width: 10px;
+    z-index: 2;
+    position: absolute;
+    top: 3.5%;
+    left: 79%;
+}
+#dropDownArrow2 {
+    height: 10px;
+    width: 10px;
+    z-index: 2;
+    position: absolute;
+    top:3.5%;
+    left: 84%;
+}
+
+/* End Top Banner*/
+
+.mainbody {
+    height: 700px;
+    width: 60%;
+    background-color: white;
+    z-index: 1;
+    border: 2px green;
+    display: inline-block;
+    position: absolute;
+    left: 20%;
+    margin-top: 30px;
+}
+
+/* Left Side Elements*/
+
+
+#body1 {
+    display: inline-block;
+    background-color: green;
+    width: 30%;
+    height:550px;
+    z-index: 2;
+    position: absolute;
+}
+
+#body1image {
+    width: 100%;
+    height:300px;
+    z-index: 2;
+    position:absolute;
+    display: inline-block;
+}
+
+#username{
+    width:100%;
+    height:40px;
+    z-index:2;
+    position: absolute;
+    top:300px;
+    display: inline-block;
+    background-color: white;
+}
+
+#Addabio{
+    width:100%;
+    height:40px;
+    z-index:2;
+    top:340px;
+    position: absolute;
+    display: inline-block;
+    background-color: white;
+}
+#EditProfile{
+    width:100%;
+    height:40px;
+    z-index:2;
+    position: absolute;
+    top:380px;
+    display: inline-block;
+    background-color: rgb(234, 238, 243);
+    border: 1px solid rgb(164, 168, 171);
+}
+#Joined {
+    width:100%;
+    height:130px;
+    z-index:2;
+    position: absolute;
+    top:420px;
+    display: inline-block;
+    background-color: white;
+}
+
+#usernameText{
+    font-size:22px;
+    font-family: sans-serif;
+    color: rgb(107, 102, 102);
+    position: absolute;
+    top:10px;
+    display:inline-block;
+}
+
+#AddabioText{
+    color:rgb(0, 106, 206);
+    font-family: sans-serif;
+    position: absolute;
+    top:10px;
+}
+
+#EditProfileText{
+    color:rgb(0, 0, 0);
+    font-family: sans-serif;
+    position: absolute;
+    top:10px;
+    text-align: center;
+    width: 100%;
+}
+
+#hline {
+    width:100%;
+    height: 1px;
+    border-top:1px solid rgb(234, 236, 239);
+    /*border: 2px solid rgb(234, 236, 239);*/
+    position: absolute;
+    top: 440px;
+    z-index:3;
+    display: inline-block;
+}
+
+#JoinedText{
+    color: rgb(36, 42, 46);
+    font-family: sans-serif;
+    font-size: 14px;
+    position: absolute;
+    top:40px;
+    width: 100%;
+
+}
+
+/* End Left Side Elements */
+
+
+/* Right Side Elements */
+
+#body2 {
+    display: inline-block;
+    background-color: white;
+    width: 70%;
+    height:550px;
+    z-index: 2;
+    position: absolute;
+    left:30%;
+    margin-left: 30px;
+}
+
+/* Section 1 - Right Side */
+#section1{
+    background-color: white;
+    width: 100%;
+    height:70px;
+    z-index: 2;
+    display: inline-block;
+    border-bottom: 1px solid rgb(234,236,239);
+
+}
+.words {
+    color: rgb(36, 42, 46);
+    display: inline-block;
+    width: 19%;
+    text-align: center;
+    position: absolute;
+    top: 25px;
+}
+
+#Overview {
+}
+#Repositories {
+    left: 20%;
+}
+#Stars {
+    left: 40%;
+}
+#Followers {
+    left:60%;
+}
+#Following {
+    left: 80%
+}
+
+/* Section 2 - Right Side */
+#section2 {
+    background-color: white;
+    width: 100%;
+    height:70px;
+    position: absolute;
+    top: 70px;
+    z-index: 2;
+    display: inline-block;
+    border-bottom: 1px solid rgb(234,236,239);
+}
+#searchRepositoriesBox {
+    position: absolute;
+    bottom: 15px;
+    width: 50%;
+    height: 40px;
+    display: inline-block;
+    color: rgb(209, 213, 217);
+    border: 1px solid rgb(209, 213, 217);
+}
+#searchRepositoriesText {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: rgb(209, 213, 217);
+}
+#TypeAllBox{
+    display: inline-block;
+    position: absolute;
+    bottom: 15px;
+    left: 55%;
+    height: 40px;
+    width: 85px;
+    text-align: center;
+    background-color: rgb(234, 238, 243);
+    border: 1px solid rgb(164, 168, 171);
+}
+#TypeAllText {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    text-align: center;
+}
+#LanguageAllBox {
+    display: inline-block;
+    position: absolute;
+    bottom: 15px;
+    left: 68%;
+    height: 40px;
+    width: 120px;
+    background-color: rgb(234, 238, 243);
+    border: 1px solid rgb(164, 168, 171);
+}
+#LanguageAllText {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    text-align: center;
+}
+#NewBox {
+    display: inline-block;
+    position: absolute;
+    bottom: 15px;
+    left: 90%;
+    height: 40px;
+    width: 70px;
+    border: 1px solid rgb(164, 168, 171);
+    background-color:rgb(33, 173, 88);
+}
+#NewText {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+/* Section 3 - Right Side */
+
+#section3 {
+    background-color: white;
+    width: 100%;
+    height:130px;
+    position: absolute;
+    top: 140px;
+    z-index: 2;
+    display: inline-block;
+    border-bottom: 1px solid rgb(234,236,239);
+}
+.repoTitle {
+    position: absolute;
+    top: 25px;
+    width: 100%;
+    color: rgb(0, 106, 206);
+    font-size: 22px;
+    font-weight: bold;
+}
+.HTML {
+    position: absolute;
+    bottom: 25px;
+    font-size: 14px;
+    left: 20px;
+}
+
+#Javascript {
+    position: absolute;
+    bottom: 25px;
+    font-size: 14px;
+    left: 20px;
+}
+.Updated {
+    position: absolute;
+    bottom: 25px;
+    left: 110px;
+    font-size: 14px;
+}
+.redCircle {
+    position: absolute;
+    bottom: 25px;
+    width: 14px;
+    height: 14px;
+}
+/* Section 4 - Right Side */
+#section4 {
+    background-color: white;
+    width: 100%;
+    height:130px;
+    position: absolute;
+    top: 270px;
+    z-index: 2;
+    display: inline-block;
+    border-bottom: 1px solid rgb(234,236,239);
+}
+
+/* Section 5 - Right Side */
+#section5 {
+    background-color: white;
+    width: 100%;
+    height:130px;
+    position: absolute;
+    top: 400px;
+    z-index: 2;
+    display: inline-block;
+    border-bottom: 1px solid rgb(234,236,239);
+}
+
+
+
+/* End Right Side Elements*/
+
+
